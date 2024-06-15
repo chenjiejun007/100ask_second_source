@@ -78,6 +78,11 @@ static void first_drv_exit(void)
 	iounmap(gpfcon);
 }
 
+/*
+this is a test 
+ by CJJ 2024-06-15
+*/
+
 module_init(first_drv_init);
 module_exit(first_drv_exit);
 
